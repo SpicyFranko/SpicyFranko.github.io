@@ -4,9 +4,11 @@
     font-family: 'Raleway', 'Abel';
     box-sizing: border-box;
 }
+/*CIS133 Frankie Escarcega 2022*/
 body {
     background-color: #1c1f22;
 }
+/*Navigation Line Starts Here*/
 nav {
     background-color: #00000062;
     display: flex;
@@ -37,6 +39,7 @@ nav ul li a {
     margin: auto;
     transition: 0.3s;
 }
+/*This is for a cool line text effect on the navigation*/
 .navigator nav ul li:hover::after{
     width: 100%;
 }
@@ -48,6 +51,7 @@ nav ul li a {
     padding-left: 2%;
     padding-right: 4%;
 }
+/*Other themes apply to the same object on all pages*/
 .view img {
     width: 100%;
 }
