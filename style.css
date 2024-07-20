@@ -1,69 +1,73 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Raleway', 'Abel';
+    font-family: 'Montserrat', 'Open Sans';
     box-sizing: border-box;
 }
 /*CIS133 Frankie Escarcega 2022*/
 body {
-    background-color: #1c1f22;
+    background-color: #1d2b42;
 }
 /*Navigation Line Starts Here*/
 nav {
-    background-color: #00000062;
+    background-color: #00000050;
     display: flex;
-    align-items: left;
-    justify-content: space-between;
-    font-size: 28px;
+    justify-content: center;
+    font-size: 24px;
     padding-top: 16px;
     padding-bottom: 16px;
-    padding-left: 0%;
-    padding-right: 4%;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 nav ul li {
     list-style-type: none;
     display: inline-block;
-    padding: 10px 34px;
-    font-weight: 300;
+    align-content: center;
+    padding: 5px 35px;
+    font-weight: 500;
 }
 nav ul li a {
-    color: whitesmoke;
+    color: #ebebeb;
     text-decoration: none;
 }
+/*This is the thin blue line that appears under the navigation text*/
 .navigator nav ul li::after {
     content: '';
     width: 0%;
     height: 2px;
-    background-color: #ff7300;
+    background-color: #ffd65a;
     display: block;
     margin: auto;
-    transition: 0.3s;
+    transition: 0.2s;
 }
-/*This is for a cool line text effect on the navigation*/
 .navigator nav ul li:hover::after{
     width: 100%;
 }
 .logo {
     color: whitesmoke;
-    font-size: 48px;
-    letter-spacing: 2px;
-    padding-top: 30px;
+    font-size: 64px;
+    letter-spacing: 1px;
+    padding-top: 5px;
     padding-left: 2%;
-    padding-right: 4%;
 }
 /*Other themes apply to the same object on all pages*/
 .view img {
+    margin: auto;
     width: 100%;
+    display: flex;
 }
 .description h1 {
     text-align: Left;
-    color: #ffffffa6;
-    padding-top: 16px;
+    color: whitesmoke;
+    padding-top: 5px;
     padding-bottom: 16px;
 }
 .about {
     width: 100%;
-    padding: 2% 4%;
+    font-size: 18px;
+	line-height: 1.5;
+	letter-spacing: 0.5px;
+	padding: 5%;
 }
 .about-text p{
     text-align: left;
@@ -76,15 +80,16 @@ nav ul li a {
     background-color: rgba(0, 0, 0, 0.449);
 }
 .brief-text p{
-    color: #ffffff;
+    color: whitesmoke;
     font-size: 18px;
+	line-height: 1.5; /* Controls the space between lines */
+	letter-spacing: 0.5px; /* Controls the space bewteen characters */
 }
 footer {
     position: relative;
     text-align: right;
     padding-top: 32px;
-    padding-bottom: 8px;
-    background-color: rgba(0, 0, 0, 0);
+    padding-bottom: 32px;
 }
 footer p{
     color: whitesmoke;
@@ -123,9 +128,15 @@ footer p{
 }
 h3 {
     color: #ffffff;
+    text-align: center;
+    padding: 16px;
 }
 h2 {
-    color: #ffffffad;
+    color: #ffd65a;
     text-align: center;
     font-size: 32px;
+}
+video {
+    display: flex;
+    width: 100%;
 }
